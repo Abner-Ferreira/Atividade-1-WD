@@ -1,0 +1,90 @@
+/* Quando utilizar classe colocar . + nome da classe */
+/* Quando utilizar id colocar # + nome do id */
+@font-face {
+  font-family: "Lufga Regular";
+  src: url("../assets/fonts/lufga/LufgaRegular.ttf");
+}
+
+@font-face {
+  font-family: "Lufga Bold";
+  src: url("../assets/fonts/lufga/LufgaBold.ttf");
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+* {
+  font-family: "Lufga Regular";
+  color: #FFF;
+}
+
+.banner {
+  width: 100%;
+  height: 324px;
+}
+
+.container {
+  height: 100%;
+  background: linear-gradient(147deg, #17101C 68.49%, #644079 91.01%, #B176D3 116.1%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#titulo {
+  font-family: "Lufga Bold";
+  background-image: linear-gradient(86deg, #BC04FE -50.76%, #F2E3FF 103.7%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+}
+
+#subtitulo {
+  text-align: center;
+  font-family: "Lufga Regular";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#integrantes {
+  width: 80%;
+}
+
+#integrantes,
+.aluno,
+.infos {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.aluno,
+.infos {
+  flex-direction: column;
+}
+
+.aluno img {
+  height: 250px;
+}
+
+.infos {
+  width: 100%;
+}
+
+.btn-infos {
+  border-radius: 26px;
+  border: 1px solid #BC04FE;
+  background: rgba(217, 217, 217, 0.00);
+  width: 100%;
+  height: 35px;
+  flex-shrink: 0;
+}
+.btn-infos a{
+  text-decoration: none;
+}
