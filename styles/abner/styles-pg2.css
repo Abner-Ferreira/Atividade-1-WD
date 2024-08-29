@@ -34,63 +34,22 @@ body {
 .infos {
   display: flex;
   justify-content: space-evenly;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: row;
+  width: 50%;
+  height: 70%;
+}
+
+.img-principal img{
+  width: 80%;
 }
 
 .dados-pessoais {
-  width: 50%;
+  width: 60%;
 }
 
 .dados-pessoais h1 {
   font-family: "Lufga Bold";
   margin: 0;
 
-}
-
-#idade {
-  font-size: 32px;
-  margin: 10px 0 30px 0;
-}
-
-.icons {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: row;
-  width: 35%;
-  margin: 0 0 20px 0;
-}
-
-.sobre{
-  height: 300px;
-  width: 50%;
-  margin: 30px 0;
-}
-
-.sobre p {
-  line-height: 25px;
-  text-align: justify;
-}
-
-.btn-sobre {
-  height: 80px;
-  width: 40%;
-  border-radius: 25px;
-  border: 1px solid #BC04FE;
-  background: rgba(217, 217, 217, 0.00);
-  color: #FFF;
-  text-align: center;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  cursor: pointer;
-}
-
-.btn-sobre span {
-  color: #E59EFF;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
 }
