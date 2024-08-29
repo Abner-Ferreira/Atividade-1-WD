@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Lufga Regular";
+    src: url(../../assets/fonts/lufga/LufgaRegular.ttf);
+}
+
+@font-face {
+    font-family: "Lufga Bold";
+    src: url(../../assets/fonts/lufga/LufgaBold.ttf);
+}
+
+*{
+    font-family: "Lufga Regular";
+    color: #fff;
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.banner{
+    width: 100px;
+    height: 324px;
+}
+
+.container {
+    height: 100%;
+    background: linear-gradient(147deg, #17101C 68.49%, #644079 91.01%, #B176D3 116.1%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.informacao {
+    border-radius: 25px;
+    border: 1px solid #BC04FE;
+    background: rgba(217, 217, 217, 0.00);
+    width: 250px;
+    height: 35px;
+    flex-shrink: 0;
+}
+
+.informacao a {
+    text-decoration: none;
+}
+
+.fotopaulo img {
+    float: left;
+    padding: 100px;
+    margin: 0px 10px 10px 0;
+    max-width: 100%;
+}
