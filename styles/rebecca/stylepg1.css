@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Lufga Regular";
+    src: url("../../assets/fonts/lufga/LufgaRegular.ttf");
+}
+
+@font-face {
+    font-family: "Lufga Bold";
+    src: url("../../assets/fonts/lufga/LufgaBold.ttf");
+}
+
+* {
+    font-family: "Lufga Regular";
+    color: #fff;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.banner {
+    width: 100vw;
+    height: 324px;
+}
+
+.container {
+    height: 100%;
+    background: linear-gradient(147deg, #17101C 68.49%, #644079 91.01%, #B176D3 116.1%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+
+.info-rebecca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dados {
+    width: 50%;
+}
+
+.dados h1 {
+    font-family: "Lufga Bold";
+    margin: 0;
+}
+
+#age {
+    font-size: 32px;
+    margin: 10px 0 30px 0;
+}
+
+.icones {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 35%;
+    margin: 0 0 20px 0;
+}
+
+.apresentacao {
+    height: 300px;
+    width: 50%;
+    margin: 30px 0;
+}
+
+.apresentacao p {
+    line-height: 25px;
+    text-align: justify;
+}
+
+.btn-voltar a {
+    color: #BC04FE;
+}
+
+.btn-experiencia {
+    width: 40%;
+    height: 80px;
+    border-radius: 25px;
+    border: 1px solid #BC04FE;
+    background: rgba(217, 217, 217, 0.00);
+    color: #FFF;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
