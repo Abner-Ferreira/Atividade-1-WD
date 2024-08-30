@@ -53,3 +53,17 @@ body {
   margin: 0;
 
 }
+.formacoes, .experiencias{
+  margin: 30px 0 ;
+}
+
+.formacoes p, .formacoes span, .experiencias p, .experiencias span{
+  margin: 0;
+}
+
+.formacoes
+
+.formacoes span{
+  font-size: 12px;
+  letter-spacing: 2px;
+}
