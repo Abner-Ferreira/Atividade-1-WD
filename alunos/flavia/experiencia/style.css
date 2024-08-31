@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Lufga Regular";
-  src: url("../flavia/fonts/LufgaRegular.ttf");
+  src: url("/assets/fonts/lufga/LufgaRegular.ttf");
 }
 
 @font-face {
   font-family: "Lufga Bold";
-  src: url("../flavia/fonts/LufgaBold.ttf");
+  src: url("/assets/fonts/lufga/LufgaBold.ttf");
   
 }
 html,body{
