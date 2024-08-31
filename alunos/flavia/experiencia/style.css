@@ -1,82 +1,102 @@
 @font-face {
-    font-family: "Lufga Regular";
-    src: url("../flavia/fonts/LufgaRegular.ttf");
-  }
-  
-  @font-face {
-    font-family: "Lufga Bold";
-    src: url("../flavia/fonts/LufgaBold.ttf");
-    
-  }
-  html,body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  html,
-  body {
-    height: 100vh;
-    width: 100vw;
-  }
-  
-  * {
-    font-family: "Lufga Regular";
-    color: #FFF;
-  }
-  
-  .banner {
-    width: 100%;
-    height: 324px;
-  }
-  
-  .container {
-    height: 100%;
-    background: linear-gradient(147deg, #17101C 68.49%, #644079 91.01%, #B176D3 116.1%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  
-  #titulo {
-    font-family: "Lufga Bold";
-    background-image:  linear-gradient(86deg, #BC04FE -50.76%, #F2E3FF 103.7%);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 48px;
-  }
-  
-  
-  .btn-infos {
-    border-radius: 26px;
-    border: 1px solid #BC04FE;
-    background: rgba(217, 217, 217, 0.00);
-    width: 250px;
-    height: 35px;
-    flex-shrink: 0; }
-  
-    .btn-infos a{
-        text-decoration: none;
-      }
-  
-    .aluno img {
-
-    float: left;
-    border: transparent thin solid;
-    padding: 5px;
-    margin: 0px 10px 10px 0;
-    max-width: 100%;
+  font-family: "Lufga Regular";
+  src: url("/assets/fonts/lufga/LufgaRegular.ttf");
 }
-    
-  
-  .icones {
-    width: 350px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-   
-  }
 
+@font-face {
+  font-family: "Lufga Bold";
+  src: url("/assets/fonts/lufga/LufgaBold.ttf");
   
+}
+html,body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+* {
+  font-family: "Lufga Regular";
+  color: #FFF;
+}
+
+.banner {
+  width: 100%;
+  height: 324px;
+}
+
+.container {
+  height: 100%;
+  background: linear-gradient(147deg, #17101C 68.49%, #644079 91.01%, #B176D3 116.1%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#titulo {
+  font-family: "Lufga Bold";
+  background-image:  linear-gradient(86deg, #BC04FE -50.76%, #F2E3FF 103.7%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+}
+
+
+
+  .aluno img {
+
+  float: left; 
+  border: transparent thin solid;
+  padding: 65px;
+  margin: 0px 10px 10px 0;
+  max-width: 100%;
+  height: 80%;
+}
   
+
+.icones {
+  width: 350px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+ 
+}
+
+.sobre{
+  height: 300px;
+  width: 60%;
+  margin: 30px 0;
+}
+
+.sobre p {
+  line-height: 25px;
+  text-align: justify;
+}
+
+.btn-sobre {
+  height: 80px;
+  width: 20%;
+  border-radius: 25px;
+  border: 1px solid #BC04FE;
+  background: rgba(217, 217, 217, 0.00);
+  color: #FFF;
+  text-align: center;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.btn-sobre span {
+  color: #E59EFF;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
