@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Lufga Regular";
+    src: url(../../assets/fonts/lufga/LufgaRegular.ttf);
+}
+
+@font-face {
+    font-family: "Lufga Bold";
+    src: url(../../assets/fonts/lufga/LufgaBold.ttf);
+}
+
+* {
+    font-family: "Lufga Regular";
+    color: #fff;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.banner {
+    width: 100vw;
+    height: 324px;
+}
+
+.container {
+    height: 100%;
+    background: linear-gradient(147deg, #17101C 68.49%, #644079 91.01%, #B176D3 116.1%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.infos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    width: 50%;
+    height: 70%;
+}
+
+.imagem-rebecca img {
+    width: 80%;
+}
+
+.sobre {
+    width: 60%;
+}
+
+.sobre h1 {
+    font-family: "Lufga Regular";
+    margin: 0;
+}
+
+.formacoes, .experiencias {
+    margin: 30px 0;
+}
+
+.formacoes p, .formacoes span, .experiencias p {
+    margin: 0;
+}
+
+.formacoes span {
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.btn-voltar a {
+    color: #644079;
+}
