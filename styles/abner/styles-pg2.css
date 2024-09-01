@@ -19,7 +19,10 @@ body {
 
 .banner {
   width: 100%;
-  height: 324px;
+  height: 321px;
+}
+.banner img{
+  width: 100%;
 }
 
 .container {

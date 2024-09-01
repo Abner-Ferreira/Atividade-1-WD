@@ -20,6 +20,7 @@ html,
 body {
   height: 100vh;
   width: 100vw;
+  overflow-x: hidden;
 }
 
 * {
@@ -29,7 +30,10 @@ body {
 
 .banner {
   width: 100%;
-  height: 324px;
+  height: 321px;
+}
+.banner img{
+  width: 100%;
 }
 
 .container {
