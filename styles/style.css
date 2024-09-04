@@ -19,12 +19,17 @@ body {
   color: #FFF;
 }
 
+p {
+  text-align: center;
+}
+
 .banner {
   width: 100%;
-  height: 321px;
+  height: 324px;
 }
 .banner img{
   width: 100%;
+  height: 324px;
 }
 
 .container {
