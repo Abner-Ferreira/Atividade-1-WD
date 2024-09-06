@@ -38,7 +38,7 @@ body {
 
 .foto-rebecca img {
     width: 70%;
-    margin: 0 20px 0 20px;
+    margin: 0 10px 0 10px;
 
 }
 
@@ -68,7 +68,7 @@ body {
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
-    width: 23%;
+    width: 25%;
     margin: 0 0 3% 0;
 }
 
@@ -85,6 +85,10 @@ body {
     font-weight: 400;
     line-height: normal;
     cursor: pointer;
+}
+
+.btn-experiencia a {
+    text-decoration: none;
 }
 
 .btn-experiencia span {
