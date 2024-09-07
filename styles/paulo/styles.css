@@ -1,86 +1,91 @@
 @font-face {
-    font-family: "Lufga Regular";
-    src: url(../../assets/fonts/lufga/LufgaRegular.ttf);
+  font-family: "Lufga Regular";
+  src: url("../../assets/fonts/lufga/LufgaRegular.ttf");
+  font-family: "Lufga Bold";
+  src: url("../../assets/fonts/lufga/LufgaBold.ttf");
 }
 
-@font-face {
-    font-family: "Lufga Bold";
-    src: url(../../assets/fonts/lufga/LufgaBold.ttf);
+html,
+body {
+height: 100vh;
+width: 100vw;
+overflow-x: hidden;
 }
 
-*{
-    font-family: "Lufga Regular";
-    color: #fff;
+* {
+font-family: "Lufga Regular";
+color: #FFF;
 }
 
-html,body{
-    height: 100vh;
-    width: 100vw;
-    overflow-x: hidden;
+.banner {
+  width: 100%;
+  height: 324px;
 }
 
-.banner{
-    width: 100px;
-    height: 321px;
+.banner img {
+  width: 100%;
+  height: 324px
 }
 
 .container {
-    height: 100%;
-    background: linear-gradient(147deg, #17101C 68.49%, #644079 91.01%, #B176D3 116.1%);
-    display:flex;
-    justify-content: space-evenly;
-    align-items: left;
-    flex-direction: column;
+  height: 90%;
+  width: 100%;
+  background: linear-gradient(147deg, #17101C 68.49%, #644079 91.01%, #B176D3 116.1%);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
-.informacao{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    flex-direction: row;
+.infos {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: row;
+  width: 100%;
 }
 
-.dados{
-    width: 100%;
+.dados-pessoais {
+  width: 50%;
 }
 
-.dados p {
-    line-height: 25px;
-    text-align: justify;
-    width: 65%;
+.dados-pessoais h1 {
+  font-family: "Lufga Bold";
+  margin: 0;
+
 }
 
-.dados{
-    width: 100%;
-    margin: 200px 0;
+#idade {
+  font-size: 32px;
+  margin: 10px 0 30px 0;
 }
 
-
-.experiencia {
-    height: 80px;
-    width: 20%;
-    border-radius: 25px;
-    border: 1px solid #BC04FE;
-    background: rgba(217, 217, 217, 0.00);
-    color: #FFF;
-    text-align: center;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    cursor: pointer;
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 23%;
+  margin: 0 0 3% 0;
 }
 
-.experiencia span{
-    color: #E59EFF;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+.btn-experiencia {
+  border-radius: 26px;
+  border: 1px solid #BC04FE;
+  background: rgba(217, 217, 217, 0.00);
+  width: 50%;
+  height: 35px;
+  flex-shrink: 0;
 }
 
-.fotopaulo img {
-    float: left;
-    padding: 100px;
-    margin: 0px 10px 10px 0;
-    max-width: 100%;
+.btn-experiencia a {
+  text-decoration: none;
+}
+.img-principal img{
+  width: 70%;
+  margin: 0 20% 0 20%;
+}
+
+.voltar{
+padding: 2%;
 }
