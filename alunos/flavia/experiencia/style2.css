@@ -1,8 +1,8 @@
 @font-face {
   font-family: "Lufga Regular";
-  src: url("../../assets/fonts/lufga/LufgaRegular.ttf");
+  src: url("../../assets/fonts/lufga/LufgaRegular");
   font-family: "Lufga Bold";
-  src: url("../../assets/fonts/lufga/LufgaBold.ttf");
+  src: url("../../../assets/fonts/lufga/LufgaBold.ttf");
 }
 
 html,
@@ -23,6 +23,7 @@ body {
 }
 .banner img{
   width: 100%;
+  height: 324px;
 }
 
 .container {
@@ -44,7 +45,8 @@ body {
 }
 
 .img-principal img{
-  width: 80%;
+  width: 70%;
+  margin: 0 20% 0 20% ;
 }
 
 .dados-pessoais {
@@ -69,4 +71,7 @@ body {
 .formacoes span{
   font-size: 12px;
   letter-spacing: 2px;
+}
+.voltar{
+  padding: 1px;
 }
