@@ -11,6 +11,7 @@ html,
 body {
   height: 100vh;
   width: 100vw;
+  background: linear-gradient(147deg, #17101C 68.49%, #644079 91.01%, #B176D3 116.1%);
   overflow-x: hidden;
 }
 
@@ -19,7 +20,9 @@ body {
   color: #FFF;
 }
 
-p {
+p,
+h1,
+h2 {
   text-align: center;
 }
 
@@ -27,14 +30,14 @@ p {
   width: 100%;
   height: 324px;
 }
-.banner img{
+
+.banner img {
   width: 100%;
   height: 324px;
 }
 
 .container {
   height: 100%;
-  background: linear-gradient(147deg, #17101C 68.49%, #644079 91.01%, #B176D3 116.1%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -91,7 +94,43 @@ p {
   height: 35px;
   flex-shrink: 0;
 }
-.btn-infos a{
+
+.btn-infos a {
   text-decoration: none;
 }
 
+@media (max-width: 1320px) {
+  #integrantes {
+    flex-wrap: wrap;
+  }
+
+  .aluno img {
+    height: 150px;
+  }
+
+  .infos {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 890px) {
+  #integrantes {
+    height: 65%;
+  }
+
+  .aluno {
+    margin: 10px;
+  }
+
+  .infos {
+    font-size: 12px;
+  }
+
+  #titulo {
+    font-size: 40px;
+  }
+
+  #subtitulo {
+    font-size: 20px;
+  }
+}
