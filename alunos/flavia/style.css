@@ -76,13 +76,14 @@ body {
 }
 
 .btn-sobre {
-    border-radius: 26px;
-    border: 1px solid #BC04FE;
-    background: rgba(217, 217, 217, 0.00);
-    width: 50%;
-    height: 35px;
-    flex-shrink: 0;
-  }
+  font-size: 15px;
+  border-radius: 26px;
+  border: 1px solid #BC04FE;
+  background: rgba(217, 217, 217, 0.00);
+  width: 60%;
+  height: 35px;
+  flex-shrink: 0;
+}
 
 .btn-sobre a {
   text-decoration: none;
