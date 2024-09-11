@@ -112,3 +112,23 @@ body {
     }
 
 }
+
+footer {
+    font-family: "Lufga Regular";
+    font-size: 14px;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    }
+    
+footer p {
+    text-align: left;
+    }
+    
+footer img {
+    width: 20%;
+    
+    }

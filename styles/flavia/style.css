@@ -7,15 +7,15 @@
 
 html,
 body {
-height: 100vh;
-width: 100vw;
-overflow-x: hidden;
-background: linear-gradient(147deg, #17101C 68.49%, #644079 91.01%, #B176D3 116.1%);
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  background: linear-gradient(147deg, #17101C 68.49%, #644079 91.01%, #B176D3 116.1%);
 }
 
 * {
-font-family: "Lufga Regular";
-color: #FFF;
+  font-family: "Lufga Regular";
+  color: #FFF;
 }
 
 .banner {
@@ -25,7 +25,7 @@ color: #FFF;
 
 .banner img {
   width: 100%;
-  height: 324px
+  height: 324px;
 }
 
 .container {
@@ -42,7 +42,6 @@ color: #FFF;
   justify-content: space-evenly;
   align-items: flex-start;
   flex-direction: row;
-  width: 100%;
 }
 
 .dados-pessoais {
@@ -52,7 +51,6 @@ color: #FFF;
 .dados-pessoais h1 {
   font-family: "Lufga Bold";
   margin: 0;
-
 }
 
 #idade {
@@ -69,7 +67,16 @@ color: #FFF;
   margin: 0 0 3% 0;
 }
 
-.btn-experiencia {
+.sobre {
+  width: 80%;
+}
+
+.sobre p {
+  line-height: 25px;
+  text-align: left;
+}
+
+.btn-sobre {
   font-size: 15px;
   border-radius: 26px;
   border: 1px solid #BC04FE;
@@ -79,16 +86,17 @@ color: #FFF;
   flex-shrink: 0;
 }
 
-.btn-experiencia a {
+.btn-sobre a {
   text-decoration: none;
 }
-.img-principal img{
+
+.img-principal img {
   width: 70%;
   margin: 0 20% 0 20%;
 }
 
-.voltar{
-padding: 2%;
+.voltar {
+  padding: 2%;
 }
 
 @media (max-width: 500px) {
@@ -111,7 +119,7 @@ padding: 2%;
   .icons{
     width: 100%;
   }
-  .btn-experiencia{
+  .btn-sobre{
     width: 100%;
     font-size: 14px;
     margin: 10px 0 ;
@@ -146,7 +154,7 @@ padding: 2%;
   .sobre{
     text-align: justify;
   }
-  .btn-experiencia{
+  .btn-sobre{
     width: 100%;
     margin: 20px 0;
   }
