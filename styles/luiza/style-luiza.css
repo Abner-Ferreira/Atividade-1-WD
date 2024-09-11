@@ -69,14 +69,32 @@ body {
 }
 
 .btn-experiencia {
-  font-size: 15px;
   border-radius: 26px;
   border: 1px solid #BC04FE;
-  background: rgba(217, 217, 217, 0.00);
+  background: #BC04FE;
+  font-size: 15px;
+  font-family: "Lufga Regular";
+  text-decoration: none;
   width: 60%;
   height: 35px;
   flex-shrink: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
+
+.btn-experiencia:hover
+  {
+    border-radius: 26px;
+    border: 1px solid #7f04ab;
+    background: #7f04ab;
+    width: 60%;
+    height: 35px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
 
 .btn-experiencia a {
   text-decoration: none;

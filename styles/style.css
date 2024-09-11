@@ -96,13 +96,9 @@ h2 {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-}
-
-.btn-infos {
   text-decoration: none;
   font-family: "Lufga Regular";
   font-size: 15px;
-  align-items: center;
 }
 
 .btn-infos:hover
