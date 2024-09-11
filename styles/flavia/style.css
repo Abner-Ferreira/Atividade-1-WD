@@ -158,6 +158,33 @@ body {
     width: 100%;
     margin: 20px 0;
   }
+  .btn-sobre {
+    border-radius: 26px;
+    border: 1px solid #BC04FE;
+    background: #BC04FE;
+    font-size: 15px;
+    font-family: "Lufga Regular";
+    text-decoration: none;
+    width: 40%;
+    height: 35px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .btn-sobre:hover
+    {
+      border-radius: 26px;
+      border: 1px solid #7f04ab;
+      background: #7f04ab;
+      width: 40%;
+      height: 35px;
+      flex-shrink: 0;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+    }
   
 }
 
