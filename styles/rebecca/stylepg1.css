@@ -1,174 +1,203 @@
 @font-face {
-    font-family: "Lufga Regular";
-    src: url(../../assets/fonts/lufga/LufgaRegular.ttf);
-    font-family: "Lufga Bold";
-    src: url(../../assets/fonts/lufga/LufgaBold.ttf);
+  font-family: "Lufga Regular";
+  src: url(../../assets/fonts/lufga/LufgaRegular.ttf);
+  font-family: "Lufga Bold";
+  src: url(../../assets/fonts/lufga/LufgaBold.ttf);
 }
 
 * {
-    font-family: "Lufga Regular";
-    color: #fff;
+  font-family: "Lufga Regular";
+  color: #fff;
 }
 
 html,
 body {
-    height: 100vh;
-    width: 100vw;
-    overflow-x: hidden;
-    background: linear-gradient(147deg, #17101C 68.49%, #644079 91.01%, #B176D3 116.1%);
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  background: linear-gradient(147deg, #17101C 68.49%, #644079 91.01%, #B176D3 116.1%);
 }
 
 .banner {
-    width: 100vw;
-    height: 324px;
+  width: 100vw;
+  height: 324px;
 }
 
 .banner img {
-    width: 100%;
-    height: 324px;
+  width: 100%;
+  height: 324px;
 }
 
 .container {
-    height: 90%;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    flex-direction: column;
+  height: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 .foto-rebecca img {
-    width: 70%;
-    margin: 0 20% 0 20%;
+  width: 70%;
+  margin: 0 20% 0 20%;
 }
 
 .info-rebecca {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    flex-direction: row;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: row;
 }
 
 .dados {
-    width: 50%;
+  width: 50%;
 }
 
 .dados h1 {
-    font-family: "Lufga Bold";
-    margin: 0;
+  font-family: "Lufga Bold";
+  margin: 0;
 }
 
 #age {
-    font-size: 32px;
-    margin: 10px 0 30px 0;
+  font-size: 32px;
+  margin: 10px 0 30px 0;
 }
 
 .icones {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-    width: 23%;
-    margin: 0 0 3% 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 23%;
+  margin: 0 0 3% 0;
 }
 
 .btn-experiencia {
-    font-size: 15px;
-    border-radius: 26px;
-    border: 1px solid #BC04FE;
-    background: rgba(217, 217, 217, 0.00);
-    width: 50%;
-    height: 35px;
-    flex-shrink: 0;
+  border-radius: 26px;
+  border: 1px solid #BC04FE;
+  background: #BC04FE;
+  font-size: 15px;
+  font-family: "Lufga Regular";
+  text-decoration: none;
+  width: 40%;
+  height: 35px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .btn-experiencia a {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+.btn-experiencia:hover {
+  border-radius: 26px;
+  border: 1px solid #7f04ab;
+  background: #7f04ab;
+  width: 40%;
+  height: 35px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .voltar {
-    padding: 2%;
-    box-sizing: border-box;
+  padding: 2%;
+  box-sizing: border-box;
 }
 
 @media (max-width: 500px) {
-    .info-rebecca {
-      flex-wrap: wrap;
-    }
-    .dados{
-      width: 80%;
-      align-items: center;
-      justify-content: center;
-    }
-    .dados h1 {
-      font-size: 24px;
-      text-align: center;
-    }
-    #age{
-      text-align: center; 
-      font-size: 20px;
-    }
-    .icones{
-      width: 100%;
-    }
-    .btn-experiencia{
-      width: 100%;
-      font-size: 14px;
-      margin: 10px 0 ;
-    }
-  }
-  
-  @media (max-width: 950px) {
-    .info-rebecca {
-      flex-wrap: wrap;
-    }
-    .foto-rebecca img {
-      width: 60%;
-      margin: 0 20% 0 20%;
-    }
-    .dados{
-      width: 80%;
-      align-items: center;
-      justify-content: center;
-    }
-    .dados h1 {
-      font-size: 24px;
-      text-align: center;
-    }
-    #age{
-      font-size: 20px;
-      text-align: center;
-    }
-    .icones{
-      width: 100%;
-      justify-content: space-evenly;
-    }  
-    .sobre{
-      text-align: justify;
-    }
-    .btn-experiencia{
-      width: 100%;
-      margin: 20px 0;
-    }
-    
+  .info-rebecca {
+    flex-wrap: wrap;
   }
 
-  footer {
-    font-family: "Lufga Regular";
-    font-size: 14px;
-    height: 50%;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
+  .dados {
+    width: 80%;
     align-items: center;
-    flex-direction: row;
-    }
-    
+    justify-content: center;
+  }
+
+  .dados h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  #age {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .icones {
+    width: 100%;
+  }
+
+  .btn-experiencia {
+    width: 100%;
+    font-size: 14px;
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 950px) {
+  .info-rebecca {
+    flex-wrap: wrap;
+  }
+
+  .foto-rebecca img {
+    width: 60%;
+    margin: 0 20% 0 20%;
+  }
+
+  .dados {
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .dados h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  #age {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .icones {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  .sobre {
+    text-align: justify;
+  }
+
+  .btn-experiencia {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+}
+
+footer {
+  font-family: "Lufga Regular";
+  font-size: 14px;
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+
 footer p {
-    text-align: left;
-    }
-    
+  text-align: left;
+}
+
 footer img {
-    width: 20%;
-    
-    }
+  width: 20%;
+
+}
