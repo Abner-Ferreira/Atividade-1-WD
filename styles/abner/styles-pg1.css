@@ -80,18 +80,33 @@ body {
 }
 
 .btn-sobre {
-  font-size: 15px;
   border-radius: 26px;
   border: 1px solid #BC04FE;
-  background: rgba(217, 217, 217, 0.00);
-  width: 60%;
+  background: #BC04FE;
+  font-size: 15px;
+  font-family: "Lufga Regular";
+  width: 40%;
   height: 35px;
   flex-shrink: 0;
-}
-
-.btn-sobre a {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   text-decoration: none;
 }
+
+.btn-sobre:hover
+  {
+    border-radius: 26px;
+    border: 1px solid #7f04ab;
+    background: #7f04ab;
+    width: 40%;
+    height: 35px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+  }
 
 .img-principal img {
   width: 70%;
